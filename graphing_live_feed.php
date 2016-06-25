@@ -44,7 +44,7 @@ $tpe=$_GET['tpe']*1;
 @ $rst=$fetched_data=file_get_contents("http://212.88.98.116:4050/");
 if(!$rst)
  {
-  echo "Sorry !<br> We could not reach the server at http://212.88.98.116:4050/. Data might be temporarily anavailable.";
+  echo "Sorry !<br> We could not reach the server at http://212.88.98.116:4050/. Data might be temporarily inaccessible.";
   die;
  }
 //Check fetched data
